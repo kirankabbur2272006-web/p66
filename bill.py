@@ -1,4 +1,3 @@
-
 def calculate_bill(units):
     rate_per_unit = 5
     total_bill = units * rate_per_unit
@@ -14,3 +13,4 @@ def calculate_bill(units):
     print(f"Discount Applied: ₹{discount}")
     print(f"Final Bill: ₹{final_bill}")
 
+calculate_bill(250)
